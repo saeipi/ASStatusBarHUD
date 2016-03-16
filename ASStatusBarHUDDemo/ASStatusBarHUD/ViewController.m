@@ -42,6 +42,8 @@
     
     [ASStatusBarHUD showCustomMessage:@"今天天气正好"];
 }
-
+-(void)test {
+    NSLog(@"test");
+}
 
 @end

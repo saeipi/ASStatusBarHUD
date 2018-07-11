@@ -133,7 +133,7 @@ static CGFloat const ASDuration = 2;
 ///隐藏
 + (void)hide {
     
-    ///frame数据
+    //frame数据
     CGRect frame = aswindow.frame;
     frame.origin.y -= frame.size.height;
 //    CGRect frame = CGRectMake(0, - windowHeight, [UIScreen mainScreen].bounds.size.width, windowHeight);

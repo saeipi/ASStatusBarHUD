@@ -43,13 +43,24 @@
     
     [ASStatusBarHUD showCustomMessage:@"今天天气正好"];
 }
+
 -(void)test {
     NSLog(@"test");
 }
+
 -(void)test2 {
     NSLog(@"test");
 }
+
 -(void)test3 {
+    NSLog(@"test3");
+}
+
+-(void)test4 {
+    NSLog(@"test3");
+}
+
+-(void)test5 {
     NSLog(@"test3");
 }
 @end

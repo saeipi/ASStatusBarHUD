@@ -29,6 +29,7 @@
 }
 - (IBAction)error:(id)sender {
     [ASStatusBarHUD showError:@"加载错误"];
+    NSLog(@"加载错误");
 }
 
 - (IBAction)load:(id)sender {
@@ -47,5 +48,8 @@
 }
 -(void)test2 {
     NSLog(@"test");
+}
+-(void)test3 {
+    NSLog(@"test3");
 }
 @end

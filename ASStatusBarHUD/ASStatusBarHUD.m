@@ -74,8 +74,6 @@ static CGFloat const ASDuration = 2;
 //    [ASStatusBarHUD cancelPreviousPerformRequestsWithTarget:self selector:@selector(cancelAction) object:nil];
 //    ASStatusBarHUD *cancel = [[ASStatusBarHUD alloc] init];
 //    [cancel performSelector:@selector(cancel) withObject:nil afterDelay:2.0];
-    
-
 }
 
 + (void)cancelAction {
@@ -150,8 +148,6 @@ static CGFloat const ASDuration = 2;
         ///销毁定时器
         astimer = nil;
     }];
-    
-
 }
 
 @end
